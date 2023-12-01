@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lobster+Two&family=Oleo+Script+Swash+Caps&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image:url("image/92a65130c0cfb5a7dcd84f6e3d5c40f5.jpg") ;
+}
+
+.container{
+    display: flex;
+}
+
+.text{
+    flex: 1;
+    padding: 20px;
+    margin-left: 3cm;
+}
+
+.text h5{
+    color: pink;
+    font-size: 1.5cm;
+    font-family: Josefin Sans;
+    margin-top: 3.5cm;
+}
+
+.text h1{
+    color: rgb(120, 182, 244);
+    font-size: 3cm;
+    font-family: Cinzel Decorative;
+    margin-top: .5cm;
+}
+
+.text h4{
+    color: pink;
+    font-size: 1cm;
+    font-family: Josefin Sans;
+    margin-top: 0cm;
+}
+
+.text span{
+    color: antiquewhite;
+}
+.image{
+    flex-shrink: 0;
+    padding: 23px;
+    margin-top: 90px;
+}
+
+img:hover{
+    animation: shake 1.5s;
+    animation-iteration-count: infinite; 
+    text-align: right;
+    
+    
+  }
+  @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+  
+
+.login{
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    color: rgb(7, 0, 0);
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 2rem;
+    border: none;
+    position: relative;
+    background-color: pink;
+    transition: 0.1s;
+    margin-top: .2cm;
+    margin-left: 17cm;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-container{
+    display: flex;
+}
+
+h1{
+    margin-top: 3cm;
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+h2{
+    
+    margin-top: 1cm;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(43, 43, 42);
+}
+
+.mood{
+    width: 350px;
+    background: rgb(181, 181, 181);
+    margin-top: 3cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.mood ul{
+    text-align: center;
+    font-size: 25px;
+    margin-top: .5cm;
+}
+
+.mood ul li{
+    width: 150px;
+    background: rgb(181, 181, 181);
+    margin-top: .5cm;
+    margin-left: 2.5cm;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.vibe{
+    width: 350px;
+    background: rgb(181, 181, 181);
+    margin-top: 3cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.vibe ul{
+    
+    text-align: center;
+    font-size: 25px;
+    margin-top: .5cm;
+}
+
+.vibe ul li{
+    width: 150px;
+    background: rgb(181, 181, 181);
+    margin-top: .5cm;
+    margin-left: 2.5cm;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mine{
+    width: 350px;
+    background: rgb(181, 181, 181);
+    margin-top: 3cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.mine ul{
+    
+    text-align: center;
+    font-size: 25px;
+    margin-top: .5cm;
+}
+
+.mine ul li{
+    width: 150px;
+    background: rgb(181, 181, 181);
+    margin-top: .5cm;
+    margin-left: 2.5cm;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+\\php
+
+body{
+    font-family:Roboto;
+    background-size: 1500px 650px;
+    background-image:url("image/bg.jpg") ;
+}
+
+.hal_user{
+    font-family:Roboto;
+    background-size: 1500px 650px;
+    background-image:url("image/bg.jpg") ;
+}
+
+.pl a{
+    width: 250px;
+    background: rgb(181, 181, 181);
+    margin-top: 3cm;
+    margin-left: 17cm;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.ket h1{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10cm;
+}
+
+.tulisan_login{
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.kotak_login{
+    width: 350px;
+    background: rgb(181, 181, 181);
+    margin: 80px auto;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+}
+
+label{
+    font-size: 11pt;
+}
+.form_login{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol-login{
+    background: rgb(240, 140, 233);
+    color: rgb(75, 74, 74);
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-left: 1cm;
+}
+
+.logout {
+    width: 150px;
+    background: rgb(181, 181, 181);
+    margin-top: 2cm;
+    margin-left: 17cm;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 100px 4px;
+    border-radius: 2rem;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logout a{
+    width: 100px;
+    margin-top: .5cm;
+    margin-left: .8cm;
+    padding: 5px 5px;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
